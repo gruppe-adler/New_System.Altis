@@ -34,7 +34,7 @@ check_enemies                            fn_enemiecheck
 check_houses				 fn_housecheck   SFUNC(housecheck);
 
 
-check_streets				 fn_streetcheck  
+check_streets				 fn_streetcheck   SFUNC(streetcheck)
   
 
 check_target                             fn_targetcheck
@@ -92,7 +92,7 @@ check_parachute                          fn_parachutecheck
 get_static_spawn_point			 fn_getstaticpoint
 
 
-get_vec_border_street_point		 fn_getvecborderstreetpos
+get_vec_border_street_point		 fn_getvecborderstreetpos  SFUNC(getvecborderstreetpos)
 
 
 get_street_posdir			 fn_getstreetposdir
