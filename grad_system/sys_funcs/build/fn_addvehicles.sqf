@@ -6,7 +6,7 @@ if ((count TANKS_VEHICLE_CLASSES) == 0 && (count CAR_VEHICLE_CLASSES) == 0) exit
 
 
 private ["_spawn_pos","_spawn_radius","_vehicle_num","_vehicle_choice","_location_idx","_night_mode","_main_pos","_x",
-         "_behaviour_idx","_combat_mode_idx","_search_street_block","_street_block_in","_street_counter","_extra_pos","_mixed_arr",
+         "_behaviour_idx","_combat_mode_idx","_search_street_block","_is_allowed","_street_block_in","_street_counter","_extra_pos","_mixed_arr",
 		 "_vec_types","_vec_type","_vec_grp","_vec","_is_night","_check_roads","_roads_arr","_used_roads","_vec_spawn","_chk_type2",
 		 "_border_pos","_grp_arr","_vec_arr","_ari_holder","_grp_holder","_vec_holder","_vec_pos_dir","_output_arr","_chk_type1","_holder"];
 

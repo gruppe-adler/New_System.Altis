@@ -3,3 +3,5 @@
 
 "DELETE"
 "GA_UNITS"
+"GA_VECS"
+"GA_STWEAPON"

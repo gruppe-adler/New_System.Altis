@@ -89,7 +89,7 @@ get_vec_spawn_point                      fn_getvecpoint    SFUNC(getvecpoint)
 check_parachute                          fn_parachutecheck
 
 
-get_static_spawn_point			 fn_getstaticpoint
+get_static_spawn_point			 fn_getstaticpoint  SFUNC(getstaticpoint)
 
 
 get_vec_border_street_point		 fn_getvecborderstreetpos  SFUNC(getvecborderstreetpos)
@@ -157,6 +157,10 @@ delete_target_area                       fn_deltargetarea
                                          fn_sendtohc       SFUNC(sendtohc)
 
 					 fn_addunits
+
+                                         fn_addvehicles
+
+                                         fn_addstaticweapons
                                          
 					 fn_hcsendtodedi   SFUNC(hcsendtodedi)
 
