@@ -83,7 +83,7 @@ get_unit_classes                         fn_getunitclasses  SFUNC(getunitclasses
 get_unit_spawn_point                     fn_getunitpoint    SFUNC(getunitpoint)
 
 
-get_vec_spawn_point                      fn_getvecpoint
+get_vec_spawn_point                      fn_getvecpoint    SFUNC(getvecpoint)
 
 
 check_parachute                          fn_parachutecheck
@@ -95,7 +95,7 @@ get_static_spawn_point			 fn_getstaticpoint
 get_vec_border_street_point		 fn_getvecborderstreetpos  SFUNC(getvecborderstreetpos)
 
 
-get_street_posdir			 fn_getstreetposdir
+get_street_posdir			 fn_getstreetposdir   SFUNC(getstreetposdir)
 
 
 set_grp_difficulty			 fn_setdifficulty     SFUNC(setdifficulty)
@@ -104,13 +104,13 @@ set_grp_difficulty			 fn_setdifficulty     SFUNC(setdifficulty)
 set_debug_marker 			 fn_setdebugmarker    SFUNC(setdebugmarker) 
 
 
-set_attack_wps				 fn_setattackwps
+set_attack_wps				 fn_setattackwps   SFUNC(setattackwps)
 
 
 set_convoy_wps				 fn_setconvoywps
 
 
-get_check_night				 fn_nightcheck
+get_check_night				 fn_nightcheck    SFUNC(nightcheck)
 
 
 get_nearest_street_block		 fn_getneareststreet
@@ -154,11 +154,11 @@ remove_del_trigg_pos                     fn_remcleantriggpos
 
 delete_target_area                       fn_deltargetarea
 
-                                         fn_sendtohc
+                                         fn_sendtohc       SFUNC(sendtohc)
 
 					 fn_addunits
                                          
-
+					 fn_hcsendtodedi   SFUNC(hcsendtodedi)
 
 
 

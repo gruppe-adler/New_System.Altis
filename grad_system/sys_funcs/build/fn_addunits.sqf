@@ -281,7 +281,7 @@ If(count _grp_arr > 0)then
   {
     {
 	  addToRemainsCollector (units _x);
-	}forEach _grp_arr
+	}forEach _grp_arr;
   };
   If(_extra_pos)then
   {  
