@@ -1,0 +1,13 @@
+case ((_work_arr select 1) > (uiNamespace getVariable "obm_x_axis_old")):{_dir = _dir + _dir_move_fact;};
+case ((_work_arr select 1) < (uiNamespace getVariable "obm_x_axis_old")):{_dir = _dir - _dir_move_fact;};
+case ((_work_arr select 2) < (uiNamespace getVariable "obm_y_axis_old") && (_distance + _dist_move_fact) < (uiNamespace getVariable "obm_max_dist")):{_distance = _distance + _dist_move_fact;};
+case ((_work_arr select 2) > (uiNamespace getVariable "obm_y_axis_old") && (_distance - _dist_move_fact) > (uiNamespace getVariable "obm_min_dist")):{_distance = _distance - _dist_move_fact;};
+
+
+
+case ((_work_arr select 1) > (uiNamespace getVariable "obm_x_axis_old") && (_work_arr select 2) < (uiNamespace getVariable "obm_y_axis_old") && (_distance + _dist_move_fact) < (uiNamespace getVariable "obm_max_dist")):{_dir = _dir + _dir_move_fact;_distance = _distance + _dist_move_fact;};
+									 case ((_work_arr select 1) < (uiNamespace getVariable "obm_x_axis_old") && (_work_arr select 2) < (uiNamespace getVariable "obm_y_axis_old") && (_distance + _dist_move_fact) < (uiNamespace getVariable "obm_max_dist")):{_dir = _dir - _dir_move_fact;_distance = _distance + _dist_move_fact;};
+									 case ((_work_arr select 1) < (uiNamespace getVariable "obm_x_axis_old") && (_work_arr select 2) > (uiNamespace getVariable "obm_y_axis_old") && (_distance - _dist_move_fact) > (uiNamespace getVariable "obm_min_dist")):{_dir = _dir - _dir_move_fact;_distance = _distance - _dist_move_fact;};
+									 case ((_work_arr select 2) > (uiNamespace getVariable "obm_y_axis_old") && (_work_arr select 1) > (uiNamespace getVariable "obm_x_axis_old") && (_distance - _dist_move_fact) > (uiNamespace getVariable "obm_min_dist")):{_dir = _dir + _dir_move_fact;_distance = _distance - _dist_move_fact;};
+								     case ((_work_arr select 2) < (uiNamespace getVariable "obm_y_axis_old") && (_distance + _dist_move_fact) < (uiNamespace getVariable "obm_max_dist")):{_distance = _distance + _dist_move_fact;};
+								     case ((_work_arr select 2) > (uiNamespace getVariable "obm_y_axis_old") && (_distance - _dist_move_fact) > (uiNamespace getVariable "obm_min_dist")):{_distance = _distance - _dist_move_fact;};

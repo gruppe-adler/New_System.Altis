@@ -1,0 +1,41 @@
+//description.ext by Fry
+
+onLoadName = "Choose your destiny";
+//loadScreen = "";
+//overviewPicture = "";
+onLoadMission= "Fry Production";
+author = "Fry";
+
+
+//#include "fry_config\params.hpp"
+//#include "fry_config\sound.hpp"
+
+class Header
+{
+ gameType = COOP;
+ minPlayers = 1;
+ maxPlayers = 2; 
+ playerCountMultipleOf = 1;
+};
+
+//Respawn
+respawn = "BASE";
+respawndelay = 4;
+disabledAI = 1;
+respawnDialog = 0;
+//respawnTemplates[] = {"ActOnStart"};
+
+
+//Kartenoptionen
+ShowGPS = 1;
+ShowCompass = 1;
+ShowMap = 1;
+ShowNotePad = 0;
+ShowWatch = 1;
+ShowRadio = 1;
+ShowDebriefing = 0;
+
+
+enableItemsDropping = 0;
+
+

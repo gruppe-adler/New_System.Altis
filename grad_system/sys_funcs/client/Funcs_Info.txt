@@ -1,0 +1,169 @@
+
+
+
+
+
+
+humancounter                             fn_humancounter 
+
+
+water_check                              fn_watercheck  
+
+
+point_on_border_circle                   fn_circleborderpoint   
+
+
+point_on_border_safe_pos                 fn_bordersafepos    
+
+
+point_in_circle_big                      fn_pointincirclebig   
+
+
+point_in_circle				 fn_pointincircle   
+
+
+get_slope				 fn_slopecheck   
+
+
+hard_check				 fn_hardcheck   
+
+
+check_enemies                            fn_enemiecheck   
+
+
+check_houses				 fn_housecheck   SFUNC(housecheck);
+
+
+check_streets				 fn_streetcheck  
+  
+
+check_target                             fn_targetcheck
+
+
+unitskill				 fn_skillset
+
+
+point_for_ari                            fn_impactpoint
+
+
+get_distance                             fn_getdist
+
+
+fn_randomselect				 fn_randomselect  SFUNC(randomselect)
+
+
+get_enemy_count			         fn_getenemycount
+
+
+get_inhouse_positions			 fn_inhousepos
+
+
+look_for_target                          fn_lookfortarget
+
+
+set_objects_to_string			 fn_objectsinstring
+
+
+get_data_type                            fn_datatype  SFUNC(datatype)
+
+
+22  !!!
+
+---------------------------------------------------------------------------------------------------------
+
+get_group_div                            fn_groupdiv      SFUNC(groupdiv)
+
+
+get_house_pos				 fn_gethousepos     SFUNC(gethousepos)
+
+
+get_unit_classes                         fn_getunitclasses  SFUNC(getunitclasses)
+
+
+get_unit_spawn_point                     fn_getunitpoint    SFUNC(getunitpoint)
+
+
+get_vec_spawn_point                      fn_getvecpoint
+
+
+check_parachute                          fn_parachutecheck
+
+
+get_static_spawn_point			 fn_getstaticpoint
+
+
+get_vec_border_street_point		 fn_getvecborderstreetpos
+
+
+get_street_posdir			 fn_getstreetposdir
+
+
+set_grp_difficulty			 fn_setdifficulty     SFUNC(setdifficulty)
+
+
+set_debug_marker 			 fn_setdebugmarker    SFUNC(setdebugmarker) 
+
+
+set_attack_wps				 fn_setattackwps
+
+
+set_convoy_wps				 fn_setconvoywps
+
+
+get_check_night				 fn_nightcheck
+
+
+get_nearest_street_block		 fn_getneareststreet
+
+
+get_street_blocks			 fn_getstreetblocks
+
+
+get_safepos_dir_area			 fn_getsafeposdirarea
+
+
+38!!!
+
+--------------------------------------------------------------------------------------------------------
+
+FRY_SERVICE				 fn_dovehicleservice
+
+FRY_MARKER                               fn_addMarker 
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+add_info_to_system                       fn_addtosystem   SFUNC(addtosystem)
+
+add_respawn_pos                          fn_addrespawnpos
+
+del_respawn_pos                          fn_delrespawnpos
+
+change_combatbehavior                    fn_changebehavior
+
+add_work_trigger			 fn_addcleantrigger
+
+					 fn_doactivate
+
+add_del_trigg_pos			 fn_addcleantriggpos
+
+remove_del_trigg_pos                     fn_remcleantriggpos
+
+delete_target_area                       fn_deltargetarea
+
+                                         fn_sendtohc
+
+					 fn_addunits
+                                         
+
+
+
+
+
+
+ 
+
+
